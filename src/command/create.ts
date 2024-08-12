@@ -15,11 +15,11 @@ export interface TemplateInfo {
 
 export const templates: Map<string, TemplateInfo> = new Map([
     [
-        'Vite-Vue3-Typescript-tempalte',
+        'Vite-Vue3-中后台模板',
         {
             name: 'Vite-Vue3-Typescript-tempalte',
             downloadUrl: 'https://gitee.com/hhfuq/forest-pro.git',
-            description: 'Vue3技术栈开发模板',
+            description: '中后台模板',
             branch: 'master',
         },
     ],
@@ -28,8 +28,8 @@ export const templates: Map<string, TemplateInfo> = new Map([
         {
             name: 'Vite-Vue3-Typescript-tempalte',
             downloadUrl: 'https://gitee.com/hhfuq/forest-pro.git',
-            description: 'Vue3技术栈开发模板',
-            branch: 'master',
+            description: '移动端模板',
+            branch: 'web',
         },
     ],
 ]);
