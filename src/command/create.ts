@@ -20,7 +20,7 @@ export const templates: Map<string, TemplateInfo> = new Map([
             name: 'Vite-Vue3-Typescript-tempalte',
             downloadUrl: 'https://gitee.com/hhfuq/forest-pro.git',
             description: 'Vue3技术栈开发模板',
-            branch: 'dev11',
+            branch: 'master',
         },
     ],
     [
@@ -29,7 +29,7 @@ export const templates: Map<string, TemplateInfo> = new Map([
             name: 'Vite-Vue3-Typescript-tempalte',
             downloadUrl: 'https://gitee.com/hhfuq/forest-pro.git',
             description: 'Vue3技术栈开发模板',
-            branch: 'h5',
+            branch: 'master',
         },
     ],
 ]);
