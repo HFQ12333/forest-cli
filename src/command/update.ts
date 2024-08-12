@@ -3,7 +3,7 @@ import chalk from 'chalk';
 import ora from 'ora';
 
 const spinner = ora({
-    text: 'forest-cli 正在更新....',
+    text: 'hfq-cli 正在更新....',
     spinner: {
         interval: 300,
         frames: ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'].map((item) =>
@@ -13,7 +13,7 @@ const spinner = ora({
 });
 export function update() {
     spinner.start();
-    process.exec('npm install forest-cli@latest -g', (error) => {
+    process.exec('npm install hfq-cli@latest -g', (error) => {
         spinner.stop();
         if (!error) {
             console.log(chalk.green('更新成功'));

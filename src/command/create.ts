@@ -64,14 +64,14 @@ export const checkVersion = async (name: string, version: string) => {
     const need = gt(latestVersion, version);
     if (need) {
         console.warn(
-            `检查到forest最新版本： ${chalk.blackBright(
+            `检查到hfq最新版本： ${chalk.blackBright(
                 latestVersion
             )}，当前版本是：${chalk.blackBright(version)}`
         );
         console.log(
             `可使用： ${chalk.yellow(
-                'npm install forest-cli@latest'
-            )}，或者使用：${chalk.yellow('forest update')}更新`
+                'npm install hfq-cli@latest'
+            )}，或者使用：${chalk.yellow('hfq update')}更新`
         );
     }
     return need;

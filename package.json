@@ -1,7 +1,7 @@
 {
-    "name": "forest-cli",
-    "version": "0.1.2",
-    "description": "forest-cli 脚手架",
+    "name": "hfq-cli",
+    "version": "0.0.1",
+    "description": "hfq-cli 脚手架",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,7 @@
     ],
     "author": "hfq",
     "bin": {
-        "forest": "bin/index.js"
+        "hfq": "bin/index.js"
     },
     "files": [
         "dist",

@@ -2,12 +2,12 @@ import { Command } from 'commander';
 import { version } from '../package.json';
 import { create } from './command/create';
 import { update } from './command/update';
-const program = new Command('forest');
+const program = new Command('hfq');
 program.version(version, '-v --version');
 
 program
     .command('update')
-    .description('更新脚手架 forest-cli')
+    .description('更新脚手架 hfq-cli')
     .action(async () => {
         await update();
     });

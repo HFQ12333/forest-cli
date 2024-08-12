@@ -15,7 +15,7 @@ const logger = createLogger({
 });
 
 const goodPrinter = async () => {
-    const data = await figlet('forest-cli');
+    const data = await figlet('hfq-cli');
     console.log(chalk.rgb(40, 156, 193).visible(data));
 };
 
@@ -38,7 +38,7 @@ export const clone = async (
         goodPrinter();
         console.log();
         console.log(chalk.blueBright(`==================================`));
-        console.log(chalk.blueBright(`=== 欢迎使用 forest-cli 脚手架 ===`));
+        console.log(chalk.blueBright(`=== 欢迎使用 hfq-cli 脚手架 ===`));
         console.log(chalk.blueBright(`==================================`));
         console.log();
 
